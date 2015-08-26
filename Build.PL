@@ -13,7 +13,7 @@ my $build = Module::Build->new(
         'Scalar::Util'      => 0,
         'Exporter::Declare' => '0.103',
     },
-    build_requires => {
+    test_requires => {
         'Test::Simple'    => 0.88,
         'Test::Exception' => 0.29,
         'Fennec::Lite'    => '0.004',
